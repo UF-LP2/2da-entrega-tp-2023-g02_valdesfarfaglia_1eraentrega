@@ -1,0 +1,5 @@
+Utilizamos estas herramientas!
+
+pip install python-random-name-generator
+pip install pytest
+pip install PyQt6
