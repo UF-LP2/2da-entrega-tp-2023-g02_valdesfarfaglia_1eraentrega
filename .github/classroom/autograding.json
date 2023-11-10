@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Running Pytest",
+      "setup": "pip install -r ./requirements.txt",
+      "run": "pytest .",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
