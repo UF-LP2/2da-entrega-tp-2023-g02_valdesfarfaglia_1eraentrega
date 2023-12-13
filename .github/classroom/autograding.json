@@ -1,14 +1,24 @@
 {
   "tests": [
     {
-      "name": "Running Pytest",
-      "setup": "pip install -r ./requirements.txt",
+      "name": "requirements.txt",
+      "setup": "sudo -H pip install -r ./requirements.txt",
       "run": "pytest .",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 1
+      "points": 2
+    },
+    {
+      "name": "requiementes.txt",
+      "setup": "sudo -H pip install -r ./requirementes.txt",
+      "run": "pytest .",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
     }
   ]
 }
